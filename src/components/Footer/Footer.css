@@ -1,0 +1,119 @@
+.footer{
+    width:90vw;
+    height:40vh ;
+    margin:94px auto;
+   
+    display: flex;
+    justify-content:space-between ;
+    gap: 74px;
+
+    .leftdiv{
+        color:#ffff;
+        width:26% ;
+        display: flex;
+        flex-direction: column;
+        gap:20%;
+        h2{
+            color:white ;
+            font-size: 30px ;
+            font-weight: 700;
+            font-family: KoHo;
+            line-height: 35px;
+            span{
+                color: #21B573 ;
+                font-family: KoHo;
+            }
+        }
+        .jar{
+            font-family: Poppins;
+            text-align: justify;
+            font-size: 16px;
+            font-weight: 400px;
+            line-height: 30px;
+        }
+
+    }
+    .middlediv{
+       
+       display: flex;
+       line-height: 35px;
+       text-align: center;
+        width: fit-content;
+        height: 100%;
+        color:#D9ECFF;
+        width: 40%;
+        justify-content: space-between;
+        
+
+        h2{
+            
+            font-family: KoHo;
+        }
+        p{
+            cursor: pointer;
+            
+        }
+    }
+
+    .rightdiv{
+        display: flex;
+        flex-direction: column;
+        gap:10%;
+        text-align: center;
+        font-family: KoHo;
+
+        .ti{
+            font-size: 30px ;
+            color:#D9ECFF;
+            font-weight: 700px;
+            
+        }
+       .enter{
+        text-align: center;
+        padding: 10px;
+        border: none;
+        border-bottom: 1px solid #E1EFFF80;
+        background-color: #142941;
+        width: 95%;
+       }
+
+       .subs{
+        background: #21B573;
+        border-radius: 40px;
+        padding:5% 2% ;
+        cursor: pointer;
+        
+       }
+    }
+    h4.copy{
+       
+       width: 30vw !important;
+       
+    }
+}
+@media(max-width:850px){
+    .footer{
+        height: auto ;
+        margin-top: 200px;
+        display: grid;
+        grid-template-columns: 1fr ;
+        
+        
+        .copy{
+           
+            width:150% ;
+           font-size: 10px;
+            
+        }
+        .middlediv , .leftdiv , .rightdiv{
+            gap: 20px;
+            width: 100%;
+            
+     p{
+        font-size: 10px;
+        border-bottom: #21B573 1px solid;
+        margin-top: 50px;
+     }
+        }
+    }
+}

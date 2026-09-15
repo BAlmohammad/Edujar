@@ -1,0 +1,59 @@
+div.containercard{
+    width : 80vw ;
+    height: 784px;
+   
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3 ,1fr);
+    gap: 25px;
+    
+}
+div.explorbtn{
+    width: 100vw;
+    
+    margin: auto ;
+    text-align: center;
+    button{
+        margin-top: 25px;
+        padding: 10px;
+        border: 2px solid #fff;
+        border-radius: 38px;
+        font-size: 16px;
+        color: #fff;
+        background-color: #142941;
+        cursor: pointer;
+    }
+    button:hover{
+        transform: scale(1.1);
+        background-color: black;
+        color: #21B573;
+        border: 2px solid #21B573;
+
+    }
+    
+}
+@media(max-width:650px){
+    div.containercard{
+        display: grid ;
+        grid-template-columns:1fr 1fr!important;
+        
+    }
+}
+@media (max-width: 950px) {
+
+    div.containercard{
+       
+      
+        display: flex;
+        flex-direction: column;
+        height:max-content ;
+        hr{
+            margin: auto;
+        }
+
+        
+       
+    }
+      
+    }
+    

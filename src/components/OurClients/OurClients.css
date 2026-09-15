@@ -1,0 +1,17 @@
+div.ourclients{
+    
+    width: 80vw;
+    height: 620px;
+    margin: auto;
+    border-radius: 35px;
+   background-image: url('img/wives.png');
+   position: relative;
+   display: flex; 
+}
+@media (max-width: 650px) {
+
+    div.ourclients{
+       height:900px ;
+ 
+    }
+    }

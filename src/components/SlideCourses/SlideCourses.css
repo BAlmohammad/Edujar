@@ -1,0 +1,40 @@
+div.slidecourses{
+width: 80vw;
+height: 200px;
+
+margin: auto ;
+display:flex ;
+align-items: center;
+margin-top: 50px;
+
+
+div.slide2{
+   
+    width: 90%;
+    margin: auto;
+   overflow: auto;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+    padding: 0px 100px;
+   
+    &::-webkit-scrollbar {
+        display: none;
+      }
+   
+    div{
+        border: none ;
+       
+    }
+
+    img{
+       
+       border-radius:0 ;
+        background-color:inherit;
+        cursor: pointer;
+    }
+   
+}
+}

@@ -1,0 +1,25 @@
+div.InfoEdujar {
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+gap: 20px;
+
+
+section.desc{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+section.rate{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+
+div.ratestar{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+    }
+}

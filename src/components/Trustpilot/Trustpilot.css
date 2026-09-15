@@ -1,0 +1,36 @@
+div.trustpilot{
+    
+width: 100vw;
+height :max-content ;
+
+display: grid;
+grid-template-columns: 1fr 1fr 2fr 1fr 1fr;
+margin-top: 50px;
+
+>:nth-child(even){
+    background-color: #21B573;
+}
+>:nth-child(odd){
+    background-color: #354C66;
+}
+
+div{
+   
+    text-align: center;
+    color: white;
+   
+
+}
+
+}
+
+
+@media (max-width: 650px) {
+    div.trustpilot{
+        display: grid;
+        grid-template-columns: 1fr;
+        
+       
+    }
+
+}

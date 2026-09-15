@@ -1,0 +1,10 @@
+div.popular{
+    color: white;
+    width: 80vw;
+    height :max-content ;
+    margin: 80px auto;
+
+     h2{
+        margin-bottom: 20px;
+    }
+}

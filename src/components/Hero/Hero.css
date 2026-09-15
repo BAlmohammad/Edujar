@@ -1,0 +1,75 @@
+.hero{
+    
+    margin: auto;
+    width: 90vw;
+    height: max-content;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  
+
+    div{
+        text-align: center;
+        line-height: 80px;
+        color: white;
+       
+
+     
+        h2{
+            font-weight: 700;
+            font-style: bold;
+            font-size: 55px;
+            font-family:sans-serif ;
+        }
+        p{
+            color: #D9ECFF;
+            font-weight: 500;
+            font-size: 18px;
+            font-style: medium;
+            line-height: 25px;
+            margin-top: 50px;
+        }
+        h2 span.underline{
+            color: #EFA02A;
+            position: relative;
+            
+        }
+        h2 span.underline::after{
+            content: url("/img/Vector.svg") ;
+            position: absolute;
+            bottom: -50px ;
+            left : -20px ;
+        }
+    }
+  
+     .imgdiv{
+        position: relative;     
+    }
+    .imgdiv img{
+        z-index: 100 ;
+        position: relative;
+    }
+
+    div.imgdiv::after{
+      
+        content: url("/img/G2.png") ;
+        position: absolute;
+        bottom: 50px ;
+        left : -40px ;
+        z-index: 1;
+       
+    
+        
+    }
+}
+@media(max-width : 768px){
+    .hero{
+        flex-direction: column;
+        text-align: center;
+
+        div h2{
+            font-size: 25px;
+        }
+
+    }
+}

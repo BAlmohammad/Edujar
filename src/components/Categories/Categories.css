@@ -1,0 +1,36 @@
+div.categories{
+    width: 100vw;
+    min-height: 276px;
+    max-height: fit-content;
+   
+    background-image:url('/img/wives.png');
+  
+            display: flex;
+            align-items: center;
+            justify-content: center;
+    
+    div.infocontainer{
+       
+        width: 80vw;
+        height: 200px;
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 25px;
+      
+     
+    }
+   
+}
+@media (max-width: 650px) {
+
+    div.infocontainer{
+        width: 100vw;
+        min-height: max-content;
+        display: grid !important;
+        grid-template-columns: 1fr 1fr;
+        
+    }
+   
+    }

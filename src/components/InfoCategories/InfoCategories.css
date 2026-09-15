@@ -1,0 +1,32 @@
+div.infocategories{
+    width: 200px;
+    height : 195px ;
+    border: 2px #DADAF780 solid;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+ 
+    img{
+       
+        padding: 20px;
+        border-radius: 100%;
+        background-color: #FBB03B;
+    }
+    p{
+        color: #D9ECFF;
+    }
+}
+@media (max-width: 650px) {
+    div.infocategories{
+        margin-top: 20px;
+        width: 100px;
+        height: 120px;
+       gap: 10px;
+    }
+    p{
+     font-size: 10px;
+    }
+    
+}
